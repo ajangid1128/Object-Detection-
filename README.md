@@ -16,53 +16,21 @@
 
 3. Converting images in yolo format
 * Generate file that contain class and bounding box info along with image dataset. 
-* Format - 
-main_folder
-│   main.py
-│
-└───OID
-    │   file011.txt
-    │   file012.txt
-    │
-    └───csv_folder
-    |    │   class-descriptions-boxable.csv
-    |    │   validation-annotations-bbox.csv
-    |
-    └───Dataset
-        |
-        └─── test
-        |
-        └─── train
-        |
-        └─── validation
-             |
-             └───Apple
-             |     |
-             |     |0fdea8a716155a8e.jpg
-             |     |2fe4f21e409f0a56.jpg
-             |     |...
-             |     └───Labels
-             |            |
-             |            |0fdea8a716155a8e.txt
-             |            |2fe4f21e409f0a56.txt
-             |            |...
-             |
-             └───Orange
-                   |
-                   |0b6f22bf3b586889.jpg
-                   |0baea327f06f8afb.jpg
-                   |...
-                   └───Labels
-                          |
-                          |0b6f22bf3b586889.txt
-                          |0baea327f06f8afb.txt
-                          |...
-
-
-* 
-
-4. Make Data ready for training purposes 
+* Obtained CenterX, CenterY, width, height of bounding box and store in txt file.
+* Format for yolo = Each Image + Each Annotation [classnumber,CenterX, CenterY, width, height]  
 
 4. Training on COCO Dataset (80 Classes)
+* Clone the repo: https://github.com/alexeyab/darknet
+* Download weights trained on Coco Dataset
+
+![weight](https://user-images.githubusercontent.com/39665134/144703626-2a5c0853-fc17-45a8-8b35-d9564a56242b.PNG)
+
+
+* Used Google Colab GPU hardware system
+* Compile our darknet model - open source neural network model. 
+
+![DARKNET MODEL](https://user-images.githubusercontent.com/39665134/144703634-1eb99418-b470-44a8-bb17-0ca8a9b74fda.PNG)
+
 
 5. Training on Custom Dataset (with only Person-Car Class)
+* 
