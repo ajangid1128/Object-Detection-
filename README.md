@@ -32,5 +32,6 @@
 ![DARKNET MODEL](https://user-images.githubusercontent.com/39665134/144703634-1eb99418-b470-44a8-bb17-0ca8a9b74fda.PNG)
 
 
+
 5. Training on Custom Dataset (with only Person-Car Class)
 * 
