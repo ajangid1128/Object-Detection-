@@ -7,7 +7,12 @@
 ![labelimgtool](https://user-images.githubusercontent.com/39665134/144701896-478530d6-54b6-4868-91c9-7654cef84057.PNG)
 
 2. **Downloaded annotated images** from huge dataset.
-* Downloaded anotated and labelled dataset (containing bounding box values) from google open images dataset with Person & Car class. 
+* Downloaded anotated and labelled dataset (containing bounding box values) from google open images dataset with Person & Car class.
+* Category = [Person, Car]
+* Clone the repo - https://github.com/EscVM/OIDv4_ToolKit to download dataset from open image dataset.
+
+![Download Image](https://user-images.githubusercontent.com/39665134/144703163-3583cff6-ea89-439e-a963-c2ddb150e62d.PNG)
+
 
 3. Converting images in yolo format
 
