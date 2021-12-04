@@ -1,11 +1,11 @@
 # Object-Detection (YOLOv4)
 
-1. Bounding Box (Creating Labels/Annotations)- 
+1. **Bounding Box** (Creating Labels/Annotations)- 
 * The Json file of annotation does not contain the bounding box coordinate
-* Creating manually the bounding box on image dataset using *LabelImg* (**github.com/tzutalin/labelImg**) Tool -- tooks to much time to build bounding box around each image. 
+* Creating manually the bounding box on image dataset using **LabelImg** (**github.com/tzutalin/labelImg**) Tool -- tooks to much time to build bounding box around each image. 
 
-2. Downloading annotated images from huge dataset.
-Downloaded anotated and labelled dataset (containing bounding box values) from google open images dataset. 
+2. **Downloaded annotated images** from huge dataset.
+* Downloaded anotated and labelled dataset (containing bounding box values) from google open images dataset. 
 
 3. Converting images in yolo format
 
