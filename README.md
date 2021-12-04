@@ -31,7 +31,17 @@
 
 ![DARKNET MODEL](https://user-images.githubusercontent.com/39665134/144703634-1eb99418-b470-44a8-bb17-0ca8a9b74fda.PNG)
 
+![COCO](https://user-images.githubusercontent.com/39665134/144704198-a291eaec-191e-4da2-a00f-ca4558f15c20.PNG)
 
 
 5. Training on Custom Dataset (with only Person-Car Class)
-* 
+* Update yolov4 hyperparameters including classes = 2, filter = 21, max_batch_size = 4000 and generate two train_yolov4.txt & test_yolov4.txt file containing hyperparameters.  
+*  Used Pre-Trained transfer learning 
+
+![customdataset](https://user-images.githubusercontent.com/39665134/144703939-de2ea59b-fad8-47df-8e77-19062ae4bb80.PNG)
+
+![PersonCar](https://user-images.githubusercontent.com/39665134/144703740-5826158c-03c2-40fe-bf4c-544529add78c.PNG)
+  
+
+
+
