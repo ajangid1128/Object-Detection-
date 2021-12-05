@@ -14,14 +14,14 @@
 ![Download Image](https://user-images.githubusercontent.com/39665134/144703163-3583cff6-ea89-439e-a963-c2ddb150e62d.PNG)
 
 
-3. Converting images in yolo format
+3. **Converting images in yolo format**
 * Generate file that contain class and bounding box info along with image dataset. 
 * Obtained CenterX, CenterY, width, height of bounding box and store in txt file.
 * Format for yolo = Each Image + Each Annotation [classnumber,CenterX, CenterY, width, height]  
 
-4. Training on COCO Dataset (80 Classes)
+4. **Training on COCO Dataset (80 Classes)**
 * Clone the repo: https://github.com/alexeyab/darknet
-* Download weights trained on Coco Dataset
+* Download weights trained on Coco Dataset pre-trained transfer learning
 
 ![weight](https://user-images.githubusercontent.com/39665134/144703626-2a5c0853-fc17-45a8-8b35-d9564a56242b.PNG)
 
@@ -36,7 +36,7 @@
 
 5. Training on Custom Dataset (with only Person-Car Class)
 * Update yolov4 hyperparameters including classes = 2, filter = 21, max_batch_size = 4000 and generate two train_yolov4.txt & test_yolov4.txt file containing hyperparameters.  
-*  Used Pre-Trained transfer learning 
+*  Learn weights for our custom dataset.  
 
 ![customdataset](https://user-images.githubusercontent.com/39665134/144703939-de2ea59b-fad8-47df-8e77-19062ae4bb80.PNG)
 
